@@ -1,0 +1,11 @@
+server:
+  port: 8001
+
+gCamUrl: ${GCAMURL:http://localhost:8007}
+
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_DB_URL}
+
+

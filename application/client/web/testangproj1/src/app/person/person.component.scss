@@ -1,0 +1,169 @@
+
+.sidenav {
+    list-style-type: none;
+    border-width: 20px;
+  }
+
+  li{
+    padding: 13px 14px 11px 14px;
+    font-size: 14px;
+    color: #000;
+  }
+
+  select{
+    height: 35px;
+    border: 1px solid #a4a4b5;
+    width: 282px;
+    border-radius: 5px;
+    }
+
+  li:hover{
+    background-color: #f5f0f0;
+    color: #8883e0;
+  }
+
+  table {
+    font-size: 14px !important;
+  }
+
+  tr{
+   height: 57px;
+  }
+
+  .listactive{
+    background-color: #f5f0f0;
+    color: #8883e0;
+  }
+
+  .table{
+    margin: 25px 16px 18px 16px;
+    width: 96%;
+  }
+
+
+  .addbutton{
+    border-radius: 0;
+    height: 30px;
+    width: 135px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-div{
+    position: absolute;
+    background-color: white;
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 13px grey;
+    width: 90px;
+    top: 28px;
+    z-index: 999;
+}
+
+.content-divdel{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: 2px 2px 13px grey;
+    width: 240px;
+    right: 206px;
+    bottom: 40px;
+    z-index: 999;
+}
+
+.delete-btn{
+    height: 25px;
+    width: 56px;
+    background-color: #fff;
+    border: solid 1px #c4c3cd;
+}
+
+li{
+    list-style-type: none;
+}
+
+.modal {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for the desired darkness */
+  }
+  
+  .modal-dialog {
+    max-width: 80%; /* Adjust the width as needed */
+  }
+  
+  .modal-content {
+    background-color: #fff; /* Adjust the background color as needed */
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  label{
+    width: 100px;
+    margin-top: 5px;
+  }
+
+  input{
+    border: 1px solid #a4a4b5;
+    height: 30px;
+    width: 282px;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .modal-title{
+    font-size: 17px;
+
+  }
+
+
+  .modal-header {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding:10px !important; /* Adjust the background color as needed */
+  }
+
+  .modal-footer {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding:10px !important; /* Adjust the background color as needed */
+  }
+  
+  .modal-body {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .submit{
+    height: 30px;
+    width: 100px;
+    background-color: #5d57d5;
+    border: solid 1px #c4c3cd;
+
+    color: #fff;
+  }
+
+  .cancel{
+    background-color: #fff;
+    border: solid 1px #c4c3cd;
+    height: 30px;
+    width: 100px;
+    background-color: #ffffff;
+    color: #000;
+  }
+  
